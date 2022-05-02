@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Poppins-Black";
+    /* src: url("../libs/poppins/Poppins-Black.otf") format("opentype"); */
+    src: url("../libs/poppins/Poppins-Black.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Black";
+    src: url("../libs/poppins/Poppins-Black.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-BlackItalic";
+    src: url("../libs/poppins/Poppins-BlackItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("../libs/poppins/Poppins-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url("../libs/poppins/Poppins-BoldItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("../libs/poppins/Poppins-ExtraBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBoldItalic";
+    src: url("../libs/poppins/Poppins-ExtraBoldItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLight";
+    src: url("../libs/poppins/Poppins-ExtraLight.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLightItalic";
+    src: url("../libs/poppins/Poppins-ExtraLightItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url("../libs/poppins/Poppins-Italic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("../libs/poppins/Poppins-Light.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-LightItalic";
+    src: url("../libs/poppins/Poppins-LightItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("../libs/poppins/Poppins-Medium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-MediumItalic";
+    src: url("../libs/poppins/Poppins-MediumItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("../libs/poppins/Poppins-Regular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("../libs/poppins/Poppins-SemiBold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-SemiBoldItalic";
+    src: url("../libs/poppins/Poppins-SemiBoldItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url("../libs/poppins/Poppins-Thin.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Poppins-ThinItalic";
+    src: url("../libs/poppins/Poppins-ThinItalic.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}

@@ -1,0 +1,70 @@
+section {
+    max-width: 1366px;
+    padding-right: 95px;
+    padding-left: 95px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+}
+
+.container {
+    max-width: 1366px;
+    margin: 0 auto;
+    /* padding: 0 90px; */
+}
+
+.all-countries {
+    background-color: cadetblue;
+}
+
+.country-head {
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.country-head h2 {
+    font-size: 36px;
+}
+
+.country-names {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.country-names a {
+    background: #f8f1f1;
+    max-width: 100%;
+    width: 300px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 25px 18px;
+    border-radius: 10px;
+}
+
+.view {
+    text-align: center;
+}
+
+.view-more {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.hidden-countries {
+    display: none;
+}
+
+@media screen and (max-width : 768px) {
+    .container {
+        padding: 0 40px;
+    }
+
+    section {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}

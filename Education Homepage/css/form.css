@@ -1,0 +1,328 @@
+/* form section start */
+.form-wrapper {
+    margin-top: 100px;
+    margin-bottom: 100px;
+  }
+  
+  .form-container {
+    padding: 60px 100.5px 61px 100px;
+    border-radius: 10px;
+    box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.11);
+    background-color: #ffffff;
+  }
+  
+  .form-heading-desk {
+    font-family: "Poppins-Bold";
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: normal;
+    color: #252525;
+    margin-bottom: 16px;
+  }
+  
+  .form-subheading-desk {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: normal;
+    color: #8c8c8c;
+  }
+  
+  .gateway-form {
+    margin-top: 60px;
+  }
+  
+  .fieldset {
+    max-width: 476px;
+    position: relative;
+    width: 50%;
+    margin-right: 24px;
+  }
+  
+  .fieldset.input-fields {
+    margin-top: 0;
+  }
+  
+  .fieldset .icon-search {
+    cursor: pointer;
+    position: absolute;
+    float: right;
+    color: #8d8d8d;
+    font-size: 16px;
+    right: 15px;
+    bottom: 11px;
+  }
+  
+  .input_typ_text,
+  .select-city {
+    border: 1px solid #979797;
+    color: #8c8c8c;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    width: 100%;
+    background: none;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Poppins-Medium";
+    position: relative;
+    padding-bottom: 7.5px;
+  }
+  
+  .input_typ_text:focus,
+  .select-city:focus {
+    outline: none;
+  }
+  
+  .label {
+    font-family: "Poppins-Medium";
+    font-size: 12px;
+    font-weight: 500;
+    color: #8c8c8c;
+  }
+  
+  .form-bottom {
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .error-text{
+    color: red;
+    font-size: 12px;
+  }
+
+  .form-bottom p {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.05px;
+    color: #000000;
+    font-family: "Poppins-Regular";
+  }
+  
+  .form-bottom p a {
+    color: #f5822d;
+  }
+  
+  .submitbtn {
+    padding: 9px 20px;
+    border-radius: 20.5px;
+    background-color: #52ab98;
+    border: 0px;
+    color: white;
+    cursor: pointer;
+    margin: 0 auto;
+    display: block;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: "Poppins-SemiBold";
+    font-weight: 600;
+  }
+  
+  .formdiv {
+    display: flex;
+    margin-bottom: 54.5px;
+    margin-right: -24px;
+  }
+  
+  .formdiv:nth-child(3) {
+    margin-bottom: 0;
+  }
+  
+  .error {
+    position: absolute;
+    display: block;
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: "Poppins-Medium";
+    margin-top: 0;
+  }
+  
+  #telephone_error {
+    margin-top: 30px;
+  }
+  
+  /* Chrome, Safari, Edge, Opera */
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  
+  /* Firefox */
+  input[type=number] {
+    -moz-appearance: textfield;
+  }
+  
+  @media only screen and (min-width: 320px) and (max-width: 767px) {
+    .form-wrapper {
+      margin-top: 60px;
+      margin-bottom: 60px;
+    }
+  
+    .form-container {
+      padding: 29px 24px 30px 24px;
+    }
+  
+    .form-heading-desk {
+      font-size: 24px;
+      line-height: 32px;
+      text-align: center;
+      margin-bottom: 5px;
+      width: 99%;
+    }
+  
+    .form-subheading-desk {
+      font-size: 12px;
+      line-height: 24px;
+      text-align: center;
+      display: block;
+    }
+  
+    .gateway-form {
+      margin-top: 42px;
+    }
+  
+    .fieldset {
+      width: 100%;
+      margin-bottom: 42px;
+      max-width: 100%;
+      margin-right: 0;
+    }
+  
+    .fieldset .icon-search {
+      right: 10px;
+      font-size: 12px;
+    }
+  
+    .input_typ_text,
+    .select-city {
+      font-size: 14px;
+      padding-bottom: 8px;
+    }
+  
+    .formdiv {
+      display: block;
+      margin-bottom: 42px;
+      margin-right: 0;
+    }
+  
+    .label {
+      font-size: 10px;
+    }
+  
+    .form-container form .form-bottom {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .form-bottom p {
+      font-size: 12px;
+      line-height: 18px;
+      letter-spacing: -0.4px;
+      max-width: 232px;
+      margin: 0 auto;
+    }
+  
+    .fieldset:last-child {
+      margin-bottom: 0;
+    }
+  
+    .submitbtn {
+      font-size: 14px;
+      width: 154px;
+      height: 37px;
+      display: inline-block;
+    }
+  
+    #telephone_error {
+      margin-top: 0;
+    }
+  }
+  
+  /* form section end */
+  
+  /* chechbox custom css starts */
+  /* Hide the browser's default checkbox */
+  .checkbox-field {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 5px;
+    bottom: -25px;
+  }
+  
+  .checkbox {
+    opacity: 0;
+    cursor: pointer;
+    height: 18px;
+    width: 18px !important;
+    z-index: 1;
+    margin: 0 9px 0 0;
+    position: relative;
+  }
+  
+  /* Create a custom checkbox */
+  .checkmark {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    border: 2px solid #979797;
+    border-radius: 4px;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .checkbox:hover ~ .checkmark {
+    background-color: #fff;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .checkbox:checked ~ .checkmark {
+    border: 2px solid #f5822d;
+    background-color: #fff;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .checkbox:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .checkmark:after {
+    left: 35%;
+    top: 8%;
+    width: 5px;
+    height: 10px;
+    border: solid #f5822d;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+  
+  @media only screen and (max-width: 767px) and (min-width: 320px) {
+    .checkbox-field {
+      position: unset;
+      margin-top: 7px;
+    }
+  
+    .checkmark {
+      top: unset;
+    }
+  }
+  /* chechbox custom css ends */
+  

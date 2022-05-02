@@ -1,0 +1,101 @@
+/* How we work */
+.how-we-work h2 {
+    font-family: "Poppins-Bold";
+    color: darkslategray;
+    font-size: 50px;
+    text-align: center;
+    left: 0;
+    right: 0;
+    font-weight: 800;
+    position: absolute;
+}
+.parent-we-work {
+    background-color: #c8d8e4;
+    padding: 30px;
+}
+.parent-we-work img {
+    min-width: 160px;
+    max-width: 160px;
+    max-height: 135px;
+    min-height: 135px;
+}
+.main-wrap {
+    margin-bottom: 20px;
+}
+.first-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.process-text p {
+    text-align: center;
+}
+.second-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+.third-wrap {
+    display: flex;
+    justify-content: center;
+}
+.process-text h3 {
+    /* font-family: "Poppins-SemiBold"; */
+    font-size: 22px;
+    margin-top: 20px;
+    color: #c8d8e4;
+    font-weight: 700;
+    text-align: center;
+}
+.inner-div {
+    background: #2b6777;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 235px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.inner-div::before {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    left: -101px;
+    top: -21px;
+    border: 5px solid #52ab98;
+    border-top: 0;
+    border-right: 0;
+}
+.first-wrap .inner-div::before {
+    content: unset;
+}
+.second-wrap .inner-div:last-child::before {
+    content: unset;
+}
+.second-wrap .inner-div:last-child::after {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    right: -101px;
+    top: -21px;
+    border: 5px solid #52ab98;
+    border-top: 0;
+    border-left: 0;
+}
+.third-wrap .inner-div::after {
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    right: -101px;
+    top: -21px;
+    border: 5px solid #52ab98;
+    border-top: 0;
+    border-left: 0;
+}
